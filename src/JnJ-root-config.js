@@ -1,15 +1,17 @@
-import { registerApplication, start } from "single-spa";
+import { registerApplication, registerParcel, start } from "single-spa";
 
 registerApplication({
-  name: "@JnJ/HelloWorld",
+  name: "spa-parcel-react",
   app: () => System.import("http://localhost:8500/JnJ-HelloWorld.js"),
   activeWhen: ["/"],
+  customProps: { propFromUser: "David" },
 });
 
 registerApplication({
-  name: "Search",
+  name: "spa-parcel-angular",
   app: () => System.import("http://localhost:8600/main.js"),
   activeWhen: ["/"],
+  customProps: {},
 });
 
 start({

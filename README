@@ -1,7 +1,7 @@
-Angular parcel: 
+Angular parcel:
 yarn serve:single-spa:spa-parcel-angular
 http://single-spa-playground.org/playground/instant-test?name=spa-parcel-angular&url=%2F%2Flocalhost%3A8600%2Fmain.js&framework=angular
 
 React parcel:
-yarn start  --port 8500
+yarn start
 http://single-spa-playground.org/playground/instant-test?name=@JnJ/HelloWorld&url=8500
