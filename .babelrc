@@ -1,0 +1,20 @@
+{
+  "env": {
+    "test": {
+      "plugins": ["istanbul"],
+      "sourceMaps": true,
+      "retainLines": true
+    }
+  },
+  "presets": [
+    "@babel/preset-react",
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ]
+}
