@@ -25,7 +25,6 @@ module.exports = (webpackConfigEnv, argv) => {
       }),
     ],
   });
-  // console.log({ defaultConfig, config });
 
   return config;
 };
