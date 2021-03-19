@@ -4,9 +4,9 @@ Simple root configuration or host application, hosting two different Microfronte
 
 ## Microfrontends
 
-Clone `https://github.com/dgulabs/spa-parcel-angular` and follow the setup instructions.
+Clone [https://github.com/dgulabs/spa-parcel-angular](https://github.com/dgulabs/spa-parcel-angular) and follow the setup instructions.
 
-Clone `https://github.com/dgulabs/spa-parcel-react` and follow the setup instructions.
+Clone [https://github.com/dgulabs/spa-parcel-react](https://github.com/dgulabs/spa-parcel-react) and follow the setup instructions.
 
 ## Installation
 
