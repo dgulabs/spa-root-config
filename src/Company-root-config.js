@@ -6,7 +6,7 @@ import Root from "./Root";
 
 registerApplication({
   name: "spa-parcel-react",
-  app: () => System.import("http://localhost:8500/JnJ-HelloWorld.js"),
+  app: () => System.import("reactHelloWorld"),
   activeWhen: ["/"],
   customProps: {
     propFromUser: "David",
@@ -16,7 +16,7 @@ registerApplication({
 
 registerApplication({
   name: "spa-parcel-angular",
-  app: () => System.import("http://localhost:8600/main.js"),
+  app: () => System.import("angularHelloWorld"),
   activeWhen: ["/"],
   customProps: {
     domElementGetter: () =>

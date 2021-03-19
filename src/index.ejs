@@ -34,7 +34,9 @@
       "imports": {
         "single-spa": "https://cdnjs.cloudflare.com/ajax/libs/single-spa/5.9.2/umd/single-spa.min.js",
         "react": "https://cdnjs.cloudflare.com/ajax/libs/react/17.0.1/umd/react.production.min.js",
-        "react-dom": "https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.1/umd/react-dom.production.min.js"
+        "react-dom": "https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.1/umd/react-dom.production.min.js",
+        "reactHelloWorld": "http://localhost:8500/Company-HelloWorld.js",
+        "angularHelloWorld": "http://localhost:8600/main.js"
       }
     }
   </script>
@@ -47,7 +49,7 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-        "@JnJ/root-config": "//localhost:9000/JnJ-root-config.js"
+        "@Company/root-config": "//localhost:9000/Company-root-config.js"
       }
     }
   </script>
@@ -66,7 +68,7 @@
 <body>
   <main></main>
   <script>
-    System.import('@JnJ/root-config');
+    System.import('@Company/root-config');
   </script>
   <div id="app" />
   <!-- <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full> -->
